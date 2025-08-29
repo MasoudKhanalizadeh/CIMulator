@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/CIMulator-v1.png" alt="CIMulator Logo" width="150"/>
+  <img src="assets/CIMulator-v1.png" alt="CIMulator Logo" width="640"/>
 </p>
 
 # 🧠 CIMulator — Computation-In-Memory Simulator
