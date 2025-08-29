@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/CIMulator-v2.png" alt="CIMulator Logo" width="150"/>
+</p>
+
 # 🧠 CIMulator — Computation-In-Memory Simulator
 
 CIMulator is an interactive Jupyter-based simulator for **memristor devices** and **crossbar arrays**. It lets researchers, students, and engineers explore **in-memory computing (CIM)** with adjustable parameters, real-time plotting, and an intuitive GUI.
