@@ -75,9 +75,9 @@ CIMulator fills a niche by being interactive, educational, and Jupyter-friendly,
 📬 Contact
 Author: Masoud Khanalizadeh Imani
 
-Email: [your.email@example.com]
+Email: masoud.khanalizadehimani@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/YOURNAME
+LinkedIn: https://www.linkedin.com/in/masoud-khanalizadeh-imani-b17ab41bb/
 
 GitHub: https://github.com/USERNAME
 
