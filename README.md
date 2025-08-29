@@ -1,74 +1,83 @@
 # 🧠 CIMulator — Computation-In-Memory Simulator
-CIMulator is an interactive Jupyter-based simulator for **memristor devices** and **crossbar arrays**.  
-It allows researchers, students, and engineers to explore **in-memory computing (CIM)** concepts with adjustable parameters, real-time plotting, and an intuitive graphical interface.
+
+CIMulator is an interactive Jupyter-based simulator for **memristor devices** and **crossbar arrays**. It lets researchers, students, and engineers explore **in-memory computing (CIM)** with adjustable parameters, real-time plotting, and an intuitive GUI.
 
 ## ✨ Features
-- **Single-cell memristor simulation** with customizable parameters:
-  - Initial resistance **R0 (Ω)**
-  - Sensitivity constant **k (Ω/C)**
-  - Peak current **I0 (A)**
-  - Input frequency **f (Hz)**
-  - Duration and resolution
-  - Waveform: *sine*, *square*, *triangle*
-- **Interactive GUI with sliders** (via ipywidgets).
-- **Real-time plots**:
-  - Input current *i(t)*
-  - Accumulated charge *q(t)*
-  - Memristance *M(t)*
-- Designed for **education, research, and prototyping** in neuromorphic and CIM domains.
+
+- **Single-cell memristor simulation** with adjustable parameters (R0, k, I0, f, duration/resolution, waveform)
+- **Waveforms:** *sine*, *square*, *triangle*
+- **Interactive GUI with sliders** (ipywidgets)
+- **Real-time plots:** input current *i(t)*, accumulated charge *q(t)*, memristance *M(t)*
+- Built for **education, research, and prototyping** in neuromorphic/CIM
 
 ## 🚀 Getting Started
-### 1. Clone the repository
+
+### 1) Clone the repository
+
 ```bash
 git clone https://github.com/USERNAME/CIMulator.git
 cd CIMulator
 ```
-### 2. Install requirements
+
+### 2) Install requirements
+
 ```bash
 pip install numpy matplotlib ipywidgets
 ```
-Enable widgets in Jupyter (if not already enabled):
+
+Enable widgets in Jupyter:
+
 ```bash
 jupyter nbextension enable --py widgetsnbextension
 ```
-### 3. Run in Jupyter Notebook
+
+### 3) Run in Jupyter Notebook
+
 ```bash
 jupyter notebook
 ```
+
 Open the notebook and adjust parameters with sliders.
 
 ## 📊 Example Output
-After running a simulation, you will see plots like:
+
+After running a simulation, you’ll see plots such as:
 - Input current over time
 - Accumulated charge curve
 - Dynamic memristance response
 
 ## 🧩 Future Roadmap
-- [ ] **Crossbar Array Mode**: simulate N×N memristor crossbars.  
-- [ ] **Matrix–Vector Multiplication**: demonstrate `Y = W × X` in CIM hardware.  
-- [ ] **AI Integration**: prototype small neural networks running on crossbar arrays.  
-- [ ] **Export Tools**: numerical outputs (CSV/JSON) for analysis.  
-- [ ] **Variability & Noise Models**: include non-idealities for realistic behavior.  
-- [ ] **Unified GUI**: choose between Single-Cell, Crossbar, or AI mode from one dashboard.  
+
+- [ ] **Crossbar Array Mode:** simulate N×N memristor crossbars  
+- [ ] **Matrix–Vector Multiplication:** demonstrate `Y = W × X` in CIM hardware  
+- [ ] **AI Integration:** prototype small neural networks on crossbar arrays  
+- [ ] **Export Tools:** CSV/JSON outputs for analysis  
+- [ ] **Variability & Noise Models:** non-idealities for realism  
+- [ ] **Unified GUI:** switch between Single-Cell / Crossbar / AI modes
 
 ## 🔍 Related Tools
-- **NeuroPack**: Python-based GUI tool for memristor-based neuromorphic computing (focus on MNIST and learning rules). ([arxiv.org](https://arxiv.org/abs/2201.03339))  
-- **CrossSim (Sandia Labs)**: GPU-accelerated crossbar simulator for modeling analog in-memory computing integrated with ML frameworks. ([cross-sim.sandia.gov](https://cross-sim.sandia.gov))  
-**CIMulator** fills a niche by being **interactive, educational, and Jupyter-friendly**, designed for learning, experimentation, and rapid prototyping.
+
+- **NeuroPack:** Python GUI for memristor-based neuromorphic computing (MNIST, learning rules). (arXiv: 2201.03339)  
+- **CrossSim (Sandia Labs):** GPU-accelerated crossbar simulator integrated with ML frameworks. (cross-sim.sandia.gov)
+
+**CIMulator** fills a niche by being **interactive, educational, and Jupyter-friendly** for learning, experimentation, and rapid prototyping.
 
 ## 📬 Contact
+
 - Author: **Masoud Khanalizadeh Imani**  
-- Email: [your.email@example.com]  
-- LinkedIn: [https://www.linkedin.com/in/YOURNAME](https://www.linkedin.com/in/YOURNAME)  
-- GitHub: [https://github.com/USERNAME](https://github.com/USERNAME)
+- Email: masoud.khanalizadehimani@gmail.com
 
 ## ❤️ Support This Project
+
 If you find **CIMulator** useful, please consider supporting its development:
+
 - ⭐ Star this repository on GitHub  
 - 🐦 Share it with your network  
-- ☕ Buy Me a Coffee: [https://www.buymeacoffee.com/YOURNAME](https://www.buymeacoffee.com/YOURNAME)  
-- 💰 GitHub Sponsors: [https://github.com/sponsors/USERNAME](https://github.com/sponsors/USERNAME)  
-Your support helps me continue adding features such as **crossbar arrays, AI integration, and advanced CIM simulation tools**.
+- ☕ For Iran: http://www.coffeete.ir/masoud.khanalizadehimani  
+- ☕ International: https://buymeacoffee.com/masoudkhanalizadeh
+
+Your support helps me add **crossbar arrays, AI integration, and advanced CIM tools**.
 
 ## 📝 License
+
 MIT License © 2025 Masoud Khanalizadeh Imani
