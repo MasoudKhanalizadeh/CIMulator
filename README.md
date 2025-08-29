@@ -19,7 +19,7 @@ CIMulator is an interactive Jupyter-based simulator for **memristor devices** an
 ### 1) Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/CIMulator.git
+git clone https://github.com/MasoudKhanalizadeh/CIMulator.git
 cd CIMulator
 ```
 
